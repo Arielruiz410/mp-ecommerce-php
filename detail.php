@@ -45,14 +45,14 @@
 
     // Back urls
     $preference->back_urls = array(
-        "success" => "https://luispgarcia-mp-ecommerce-php.herokuapp.com/approved.php",
-        "failure" => "https://luispgarcia-mp-ecommerce-php.herokuapp.com/rejected.php",
-        "pending" => "https://luispgarcia-mp-ecommerce-php.herokuapp.com/pending.php"
+        "success" => "https://arielruiz-mp-ecommerce-php.herokuapp.com/approved.php",
+        "failure" => "https://arielruiz-mp-ecommerce-php.herokuapp.com/rejected.php",
+        "pending" => "https://arielruiz-mp-ecommerce-php.herokuapp.com/pending.php"
     );
 
     $preference->auto_return = "approved";
-    $preference->notification_url = "https://luispgarcia-mp-ecommerce-php.herokuapp.com/ipn.php";
-    $preference->external_reference = "luispgarcia@gmail.com";
+    $preference->notification_url = "https://arielruiz-mp-ecommerce-php.herokuapp.com/ipn.php";
+    $preference->external_reference = "arielruiz410@gmail.com";
 
     // Save
     $preference->save();
