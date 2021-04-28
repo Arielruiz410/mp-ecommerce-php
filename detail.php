@@ -17,7 +17,7 @@
     $item->currency_id = "ARS";
     $item->unit_price = $_POST['price'];
     $item->description = "Dispositivo móvil de Tienda e-commerce";
-    $item->picture_url = "https://luispgarcia-mp-ecommerce-php.herokuapp.com/".$_POST['img'];
+    $item->picture_url = "https://arielruiz-mp-ecommerce-php.herokuapp.com/".$_POST['img'];
     $preference->items = array( $item );
 
     // Payer
