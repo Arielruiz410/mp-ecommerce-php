@@ -56,7 +56,8 @@
 
     // Save
     $preference->save();
-    //die;
+    var_dump($preference);
+    die;
 ?>
 
 <!DOCTYPE html>
