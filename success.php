@@ -60,7 +60,11 @@
             </div>
         </div>
         </div>
-            <p>El pago esta pendiente =| </p>
+            <p>El pago fue exitoso =) </p>
+            <p>Estos son los datos</p>
+            <p>payment_method_id: <?php echo $_GET[''] ?></p>
+            <p>external_reference: <?php echo $_GET['external_reference'] ?></p>
+            <p>ID de Pago: <?php echo $_GET['collection_id'] ?></p>
         </div>
     </div>
 </body>

@@ -60,7 +60,7 @@
             </div>
         </div>
         </div>
-            <p>El pago esta pendiente =| </p>
+            <p>El pago ha si rechazado =( </p>
         </div>
     </div>
 </body>
